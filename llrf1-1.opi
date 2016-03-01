@@ -59,7 +59,7 @@ $(trace_0_y_pv_value)</tooltip>
     <trace_0_x_axis_index>0</trace_0_x_axis_index>
     <axis_count>2</axis_count>
     <pv_value />
-    <trace_0_buffer_size>100</trace_0_buffer_size>
+    <trace_0_buffer_size>2048</trace_0_buffer_size>
     <axis_1_maximum>100.0</axis_1_maximum>
     <axis_0_scale_font>
       <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
@@ -117,10 +117,10 @@ $(trace_0_y_pv_value)</tooltip>
     <border_color>
       <color red="34" green="160" blue="210" />
     </border_color>
-    <trace_0_y_pv>$(pv_name)</trace_0_y_pv>
+    <trace_0_y_pv>rcs:D212:wf_1</trace_0_y_pv>
     <trace_0_plot_mode>0</trace_0_plot_mode>
     <enabled>true</enabled>
-    <trace_0_x_pv></trace_0_x_pv>
+    <trace_0_x_pv>rcs:D212:xwf</trace_0_x_pv>
     <axis_1_scale_font>
       <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
     </axis_1_scale_font>
@@ -594,11 +594,11 @@ $(trace_0_y_pv_value)</tooltip>
     </foreground_color>
     <actions hook="true" hook_all="true">
       <action type="OPEN_DISPLAY">
-        <path>llrf1-1Par.opi</path>
+        <path>llrfParSet.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
-        <replace>1</replace>
+        <replace>2</replace>
         <description></description>
       </action>
     </actions>
