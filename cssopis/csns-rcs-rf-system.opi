@@ -1,0 +1,5585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display typeId="org.csstudio.opibuilder.Display" version="1.0.0">
+  <show_close_button>true</show_close_button>
+  <rules />
+  <wuid>2da4dada:138bb0b2666:-7ff6</wuid>
+  <show_grid>false</show_grid>
+  <auto_zoom_to_fit_all>true</auto_zoom_to_fit_all>
+  <scripts />
+  <height>768</height>
+  <macros>
+    <include_parent_macros>true</include_parent_macros>
+  </macros>
+  <boy_version>4.0.103.201507131348</boy_version>
+  <show_edit_range>true</show_edit_range>
+  <widget_type>Display</widget_type>
+  <auto_scale_widgets>
+    <auto_scale_widgets>false</auto_scale_widgets>
+    <min_width>-1</min_width>
+    <min_height>-1</min_height>
+  </auto_scale_widgets>
+  <background_color>
+    <color red="240" green="240" blue="240" />
+  </background_color>
+  <width>1024</width>
+  <x>-1</x>
+  <name>csns-rcs-rf-system</name>
+  <grid_space>10</grid_space>
+  <show_ruler>true</show_ruler>
+  <y>-1</y>
+  <snap_to_geometry>true</snap_to_geometry>
+  <foreground_color>
+    <color red="0" green="0" blue="0" />
+  </foreground_color>
+  <actions hook="false" hook_all="true" />
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6e24</wuid>
+    <transparent>false</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>320</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <line_style>0</line_style>
+    <widget_type>Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="51" green="102" blue="153" />
+    </background_color>
+    <width>140</width>
+    <x>30</x>
+    <name>Rectangle_1</name>
+    <y>133</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-70cc</wuid>
+    <transparent>false</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>53</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <line_style>0</line_style>
+    <widget_type>Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="51" green="102" blue="153" />
+    </background_color>
+    <width>144</width>
+    <x>30</x>
+    <name>Rectangle</name>
+    <y>72</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>1cda24cd:1526865866d:-7b69</wuid>
+    <transparent>false</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <corner_height>0</corner_height>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>42</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="22" green="33" blue="87" />
+    </border_color>
+    <anti_alias>false</anti_alias>
+    <corner_width>0</corner_width>
+    <line_style>0</line_style>
+    <widget_type>Rounded Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="51" green="102" blue="153" />
+    </background_color>
+    <width>937</width>
+    <x>30</x>
+    <name>Rounded Rectangle</name>
+    <y>19</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-77ab6595:1526c994b0e:-7f38</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>CSNS RCS RF INTER LOCK SYSTEM</text>
+    <scripts />
+    <height>33</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="34" green="160" blue="210" />
+    </background_color>
+    <width>481</width>
+    <x>30</x>
+    <name>Label_1</name>
+    <y>23</y>
+    <foreground_color>
+      <color red="255" green="255" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <fontdata fontName="Times New Roman" height="22" style="0" />
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-77ab6595:1526c994b0e:-7e45</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Now</text>
+    <scripts>
+      <path pathString="Getdate.js" checkConnect="true" sfe="false" seoe="false">
+        <pv trig="true">loc://date</pv>
+      </path>
+    </scripts>
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>2</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>431</width>
+    <x>526</x>
+    <name>Label_3</name>
+    <y>34</y>
+    <foreground_color>
+      <color red="255" green="255" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <fontdata fontName="Times New Roman" height="18" style="0" />
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>1</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <arrows>0</arrows>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-77ab6595:1526c994b0e:-7b6c</wuid>
+    <transparent>false</transparent>
+    <points />
+    <fill_arrow>true</fill_arrow>
+    <pv_value />
+    <alpha>255</alpha>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>100</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <line_style>0</line_style>
+    <arrow_length>20</arrow_length>
+    <widget_type>Polyline</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="30" green="144" blue="255" />
+    </background_color>
+    <width>100</width>
+    <x>0</x>
+    <name>Polyline</name>
+    <y>0</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>1</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <arrows>0</arrows>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-77ab6595:1526c994b0e:-7abc</wuid>
+    <transparent>false</transparent>
+    <points />
+    <fill_arrow>true</fill_arrow>
+    <pv_value />
+    <alpha>255</alpha>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>100</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <line_style>0</line_style>
+    <arrow_length>20</arrow_length>
+    <widget_type>Polyline</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="30" green="144" blue="255" />
+    </background_color>
+    <width>100</width>
+    <x>0</x>
+    <name>Polyline_1</name>
+    <y>0</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>1</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <arrows>0</arrows>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-77ab6595:1526c994b0e:-7ab9</wuid>
+    <transparent>false</transparent>
+    <points />
+    <fill_arrow>true</fill_arrow>
+    <pv_value />
+    <alpha>255</alpha>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>100</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <line_style>0</line_style>
+    <arrow_length>20</arrow_length>
+    <widget_type>Polyline</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="30" green="144" blue="255" />
+    </background_color>
+    <width>100</width>
+    <x>0</x>
+    <name>Polyline_2</name>
+    <y>0</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>1</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-7fd7b195:15272dd9b22:-4ea7</wuid>
+    <transparent>true</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <corner_height>200</corner_height>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>500</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <corner_width>200</corner_width>
+    <line_style>0</line_style>
+    <widget_type>Rounded Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="119" green="196" blue="221" />
+    </background_color>
+    <width>500</width>
+    <x>288</x>
+    <name>Rounded Rectangle</name>
+    <y>108</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color red="71" green="103" blue="204" />
+    </line_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>1</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <arrows>0</arrows>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-7fd7b195:15272dd9b22:-4c34</wuid>
+    <transparent>false</transparent>
+    <points />
+    <fill_arrow>true</fill_arrow>
+    <pv_value />
+    <alpha>255</alpha>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>100</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <line_style>0</line_style>
+    <arrow_length>20</arrow_length>
+    <widget_type>Polyline</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="30" green="144" blue="255" />
+    </background_color>
+    <width>100</width>
+    <x>0</x>
+    <name>Polyline</name>
+    <y>0</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>1</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <arrows>0</arrows>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-7fd7b195:15272dd9b22:-3c4a</wuid>
+    <transparent>false</transparent>
+    <points>
+      <point x="824" y="357" />
+      <point x="253" y="357" />
+      <point x="253" y="357" />
+      <point x="253" y="357" />
+      <point x="253" y="357" />
+      <point x="253" y="357" />
+    </points>
+    <fill_arrow>true</fill_arrow>
+    <pv_value />
+    <alpha>255</alpha>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>1</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <line_style>1</line_style>
+    <arrow_length>20</arrow_length>
+    <widget_type>Polyline</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="71" green="103" blue="204" />
+    </background_color>
+    <width>572</width>
+    <x>253</x>
+    <name>Polyline_1</name>
+    <y>357</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>1</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <arrows>0</arrows>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-7fd7b195:15272dd9b22:-3c40</wuid>
+    <transparent>false</transparent>
+    <points>
+      <point x="537" y="628" />
+      <point x="537" y="86" />
+      <point x="537" y="86" />
+      <point x="537" y="86" />
+      <point x="537" y="86" />
+      <point x="537" y="86" />
+    </points>
+    <fill_arrow>true</fill_arrow>
+    <pv_value />
+    <alpha>255</alpha>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>543</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <line_style>1</line_style>
+    <arrow_length>20</arrow_length>
+    <widget_type>Polyline</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="119" green="196" blue="221" />
+    </background_color>
+    <width>1</width>
+    <x>537</x>
+    <name>Polyline_3</name>
+    <y>86</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>35</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:LLRF:pps:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-7231</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>35</width>
+    <x>118</x>
+    <data_type>0</data_type>
+    <y>81</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-71ea</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>PPS</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>39</x>
+    <name>Label_6</name>
+    <y>89</y>
+    <foreground_color>
+      <color name="Header MainColor" red="255" green="255" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="11" style="1">Header 3</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules>
+      <rule name="Rule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="Green" red="0" green="255" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="Red" red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">rcs:interLock:LLRF:mpsToCenter1:bi</pv>
+      </rule>
+    </rules>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-7091</wuid>
+    <transparent>false</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <corner_height>16</corner_height>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>16</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="71" green="103" blue="204" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <corner_width>16</corner_width>
+    <line_style>0</line_style>
+    <widget_type>Rounded Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </background_color>
+    <width>30</width>
+    <x>577</x>
+    <name>nd4_6</name>
+    <y>100</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="true" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ffa</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RCS RF7</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>198</x>
+    <name>Label</name>
+    <y>232</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ff0</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RCS RF6</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>198</x>
+    <name>Label_8</name>
+    <y>298</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6feb</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RCS RF5</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>198</x>
+    <name>Label_9</name>
+    <y>333</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6fe6</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RCS RF4</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>198</x>
+    <name>Label_10</name>
+    <y>368</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6fe1</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RCS RF3</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>198</x>
+    <name>Label_11</name>
+    <y>465</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6fdc</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RCS RF8</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>432</x>
+    <name>Label_12</name>
+    <y>122</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6fd7</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RCS RF1</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>552</x>
+    <name>Label_13</name>
+    <y>122</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6fd2</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RCS RF2</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>802</x>
+    <name>Label_14</name>
+    <y>232</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:RFPS:RFPS7:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_1</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6f7a</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>324</x>
+    <data_type>0</data_type>
+    <y>229</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6f11</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>19</width>
+    <x>305</x>
+    <name>Label_15</name>
+    <y>232</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:BIASPS:BIASPS7:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_2</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6f04</wuid>
+    <on_color>
+      <color name="Green" red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>395</x>
+    <data_type>0</data_type>
+    <y>229</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6f03</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Bias</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>31</width>
+    <x>364</x>
+    <name>Label_16</name>
+    <y>232</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:RFPS:RFPS6:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_3</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6eef</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>324</x>
+    <data_type>0</data_type>
+    <y>295</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6eee</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>19</width>
+    <x>305</x>
+    <name>Label_17</name>
+    <y>298</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:BIASPS:BIASPS6:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_4</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6eed</wuid>
+    <on_color>
+      <color name="Green" red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>395</x>
+    <data_type>0</data_type>
+    <y>295</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6eec</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Bias</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>31</width>
+    <x>364</x>
+    <name>Label_18</name>
+    <y>298</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:RFPS:RFPS5:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_5</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ee1</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>324</x>
+    <data_type>0</data_type>
+    <y>330</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ee0</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>19</width>
+    <x>305</x>
+    <name>Label_19</name>
+    <y>333</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:BIASPS:BIASPS5:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_6</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6edf</wuid>
+    <on_color>
+      <color name="Green" red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>395</x>
+    <data_type>0</data_type>
+    <y>330</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ede</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Bias</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>31</width>
+    <x>364</x>
+    <name>Label_20</name>
+    <y>333</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:RFPS:RFPS4:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_7</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ed3</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>324</x>
+    <data_type>0</data_type>
+    <y>365</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ed2</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>19</width>
+    <x>305</x>
+    <name>Label_21</name>
+    <y>368</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:BIASPS:BIASPS4:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_8</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ed1</wuid>
+    <on_color>
+      <color name="Green" red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>395</x>
+    <data_type>0</data_type>
+    <y>365</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ed0</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Bias</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>31</width>
+    <x>364</x>
+    <name>Label_22</name>
+    <y>368</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:RFPS:RFPS3:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_9</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ec5</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>324</x>
+    <data_type>0</data_type>
+    <y>462</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ec4</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>19</width>
+    <x>305</x>
+    <name>Label_23</name>
+    <y>465</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:BIASPS:BIASPS3:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_10</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ec3</wuid>
+    <on_color>
+      <color name="Green" red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>395</x>
+    <data_type>0</data_type>
+    <y>462</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ec2</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Bias</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>31</width>
+    <x>364</x>
+    <name>Label_24</name>
+    <y>465</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:RFPS:RFPS8:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_11</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6eb7</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>432</x>
+    <data_type>0</data_type>
+    <y>147</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6eb6</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>19</width>
+    <x>413</x>
+    <name>Label_25</name>
+    <y>150</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:BIASPS:BIASPS8:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_12</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6eb5</wuid>
+    <on_color>
+      <color name="Green" red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>503</x>
+    <data_type>0</data_type>
+    <y>147</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6eb4</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Bias</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>31</width>
+    <x>472</x>
+    <name>Label_26</name>
+    <y>150</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:RFPS:RFPS1:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_13</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ea9</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>590</x>
+    <data_type>0</data_type>
+    <y>147</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ea8</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>19</width>
+    <x>571</x>
+    <name>Label_27</name>
+    <y>150</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:BIASPS:BIASPS1:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_14</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ea7</wuid>
+    <on_color>
+      <color name="Green" red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>661</x>
+    <data_type>0</data_type>
+    <y>147</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ea6</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Bias</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>31</width>
+    <x>630</x>
+    <name>Label_28</name>
+    <y>150</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:RFPS:RFPS2:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_15</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6e9b</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>750</x>
+    <data_type>0</data_type>
+    <y>229</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6e9a</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>19</width>
+    <x>731</x>
+    <name>Label_29</name>
+    <y>232</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:BIASPS:BIASPS2:Status:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_16</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6e99</wuid>
+    <on_color>
+      <color name="Green" red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>705</x>
+    <data_type>0</data_type>
+    <y>229</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6e98</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Bias</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>31</width>
+    <x>674</x>
+    <name>Label_30</name>
+    <y>232</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+    <toggle_button>true</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6e36</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <password></password>
+    <pv_value />
+    <released_action_index>0</released_action_index>
+    <square_button>true</square_button>
+    <show_led>false</show_led>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>29</height>
+    <on_label>ON</on_label>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:LLRF:mpsOut1:bo</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Boolean Button</widget_type>
+    <off_color>
+      <color red="0" green="100" blue="0" />
+    </off_color>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <width>58</width>
+    <x>39</x>
+    <name>Boolean Button</name>
+    <data_type>0</data_type>
+    <y>168</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>true</show_boolean_label>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6e1a</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>CAV RUNNING</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>124</width>
+    <x>39</x>
+    <name>Label_31</name>
+    <y>146</y>
+    <foreground_color>
+      <color name="Header MainColor" red="255" green="255" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="11" style="1">Header 3</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:LLRF::MPSMASK1:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_17</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6e0a</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>138</x>
+    <data_type>0</data_type>
+    <y>170</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6e09</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF1</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>27</width>
+    <x>105</x>
+    <name>Label_32</name>
+    <y>173</y>
+    <foreground_color>
+      <color name="Header MainColor" red="255" green="255" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="11" style="1">Header 3</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+    <toggle_button>true</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6df2</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <password></password>
+    <pv_value />
+    <released_action_index>0</released_action_index>
+    <square_button>true</square_button>
+    <show_led>false</show_led>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>29</height>
+    <on_label>ON</on_label>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:LLRF:mpsOut2:bo</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Boolean Button</widget_type>
+    <off_color>
+      <color red="0" green="100" blue="0" />
+    </off_color>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <width>58</width>
+    <x>39</x>
+    <name>Boolean Button_1</name>
+    <data_type>0</data_type>
+    <y>203</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>true</show_boolean_label>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:LLRF::MPSMASK2:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_18</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6df1</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>138</x>
+    <data_type>0</data_type>
+    <y>205</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6df0</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF2</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>27</width>
+    <x>105</x>
+    <name>Label_33</name>
+    <y>208</y>
+    <foreground_color>
+      <color name="Header MainColor" red="255" green="255" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="11" style="1">Header 3</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+    <toggle_button>true</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6de7</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <password></password>
+    <pv_value />
+    <released_action_index>0</released_action_index>
+    <square_button>true</square_button>
+    <show_led>false</show_led>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>29</height>
+    <on_label>ON</on_label>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:LLRF:mpsOut3:bo</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Boolean Button</widget_type>
+    <off_color>
+      <color red="0" green="100" blue="0" />
+    </off_color>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <width>58</width>
+    <x>39</x>
+    <name>Boolean Button_2</name>
+    <data_type>0</data_type>
+    <y>238</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>true</show_boolean_label>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:LLRF::MPSMASK3:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_19</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6de6</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>138</x>
+    <data_type>0</data_type>
+    <y>240</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6de5</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF3</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>27</width>
+    <x>105</x>
+    <name>Label_34</name>
+    <y>243</y>
+    <foreground_color>
+      <color name="Header MainColor" red="255" green="255" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="11" style="1">Header 3</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+    <toggle_button>true</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ddc</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <password></password>
+    <pv_value />
+    <released_action_index>0</released_action_index>
+    <square_button>true</square_button>
+    <show_led>false</show_led>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>29</height>
+    <on_label>ON</on_label>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:LLRF:mpsOut4:bo</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Boolean Button</widget_type>
+    <off_color>
+      <color red="0" green="100" blue="0" />
+    </off_color>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <width>58</width>
+    <x>39</x>
+    <name>Boolean Button_3</name>
+    <data_type>0</data_type>
+    <y>273</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>true</show_boolean_label>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:LLRF::MPSMASK4:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_20</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ddb</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>138</x>
+    <data_type>0</data_type>
+    <y>275</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6dda</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF4</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>27</width>
+    <x>105</x>
+    <name>Label_35</name>
+    <y>278</y>
+    <foreground_color>
+      <color name="Header MainColor" red="255" green="255" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="11" style="1">Header 3</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+    <toggle_button>true</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6da6</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <password></password>
+    <pv_value />
+    <released_action_index>0</released_action_index>
+    <square_button>true</square_button>
+    <show_led>false</show_led>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>29</height>
+    <on_label>ON</on_label>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:LLRF:mpsOut5:bo</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Boolean Button</widget_type>
+    <off_color>
+      <color red="0" green="100" blue="0" />
+    </off_color>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <width>58</width>
+    <x>39</x>
+    <name>Boolean Button_4</name>
+    <data_type>0</data_type>
+    <y>308</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>true</show_boolean_label>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:LLRF::MPSMASK5:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_21</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6da5</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>138</x>
+    <data_type>0</data_type>
+    <y>310</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6da4</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF5</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>27</width>
+    <x>105</x>
+    <name>Label_36</name>
+    <y>313</y>
+    <foreground_color>
+      <color name="Header MainColor" red="255" green="255" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="11" style="1">Header 3</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+    <toggle_button>true</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6da3</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <password></password>
+    <pv_value />
+    <released_action_index>0</released_action_index>
+    <square_button>true</square_button>
+    <show_led>false</show_led>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>29</height>
+    <on_label>ON</on_label>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:LLRF:mpsOut6:bo</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Boolean Button</widget_type>
+    <off_color>
+      <color red="0" green="100" blue="0" />
+    </off_color>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <width>58</width>
+    <x>39</x>
+    <name>Boolean Button_5</name>
+    <data_type>0</data_type>
+    <y>343</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>true</show_boolean_label>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:LLRF::MPSMASK6:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_22</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6da2</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>138</x>
+    <data_type>0</data_type>
+    <y>345</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6da1</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF6</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>27</width>
+    <x>105</x>
+    <name>Label_37</name>
+    <y>348</y>
+    <foreground_color>
+      <color name="Header MainColor" red="255" green="255" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="11" style="1">Header 3</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+    <toggle_button>true</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6da0</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <password></password>
+    <pv_value />
+    <released_action_index>0</released_action_index>
+    <square_button>true</square_button>
+    <show_led>false</show_led>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>29</height>
+    <on_label>ON</on_label>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:LLRF:mpsOut7:bo</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Boolean Button</widget_type>
+    <off_color>
+      <color red="0" green="100" blue="0" />
+    </off_color>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <width>58</width>
+    <x>39</x>
+    <name>Boolean Button_6</name>
+    <data_type>0</data_type>
+    <y>378</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>true</show_boolean_label>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:LLRF::MPSMASK7:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_23</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6d9f</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>138</x>
+    <data_type>0</data_type>
+    <y>380</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6d9e</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF7</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>27</width>
+    <x>105</x>
+    <name>Label_38</name>
+    <y>383</y>
+    <foreground_color>
+      <color name="Header MainColor" red="255" green="255" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="11" style="1">Header 3</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+    <toggle_button>true</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6d9d</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <password></password>
+    <pv_value />
+    <released_action_index>0</released_action_index>
+    <square_button>true</square_button>
+    <show_led>false</show_led>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>29</height>
+    <on_label>ON</on_label>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:LLRF:mpsOut8:bo</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Boolean Button</widget_type>
+    <off_color>
+      <color red="0" green="100" blue="0" />
+    </off_color>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <width>58</width>
+    <x>39</x>
+    <name>Boolean Button_7</name>
+    <data_type>0</data_type>
+    <y>413</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>true</show_boolean_label>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>ACC_RCS_RRF:LLRF::MPSMASK8:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_24</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6d9c</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>138</x>
+    <data_type>0</data_type>
+    <y>415</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6d9b</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RF8</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>27</width>
+    <x>105</x>
+    <name>Label_39</name>
+    <y>418</y>
+    <foreground_color>
+      <color name="Header MainColor" red="255" green="255" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="11" style="1">Header 3</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>2</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6c25</wuid>
+    <transparent>false</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <corner_height>150</corner_height>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>300</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <corner_width>150</corner_width>
+    <line_style>0</line_style>
+    <widget_type>Rounded Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <width>300</width>
+    <x>602</x>
+    <name>Rounded Rectangle_2</name>
+    <y>413</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color name="Dark Gray Border" red="190" green="190" blue="190" />
+    </line_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6bf8</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>MPS</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>499</x>
+    <name>Label_40</name>
+    <y>333</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="17" style="1">Header 1</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>1</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <arrows>0</arrows>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6be9</wuid>
+    <transparent>false</transparent>
+    <points>
+      <point x="913" y="562" />
+      <point x="584" y="562" />
+      <point x="584" y="562" />
+      <point x="584" y="562" />
+      <point x="584" y="562" />
+      <point x="584" y="562" />
+    </points>
+    <fill_arrow>true</fill_arrow>
+    <pv_value />
+    <alpha>255</alpha>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>1</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <line_style>1</line_style>
+    <arrow_length>20</arrow_length>
+    <widget_type>Polyline</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="71" green="103" blue="204" />
+    </background_color>
+    <width>330</width>
+    <x>584</x>
+    <name>Polyline_6</name>
+    <y>562</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>1</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <arrows>0</arrows>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6be8</wuid>
+    <transparent>false</transparent>
+    <points>
+      <point x="750" y="725" />
+      <point x="750" y="395" />
+      <point x="750" y="395" />
+      <point x="750" y="395" />
+      <point x="750" y="395" />
+      <point x="750" y="395" />
+    </points>
+    <fill_arrow>true</fill_arrow>
+    <pv_value />
+    <alpha>255</alpha>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>331</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <line_style>1</line_style>
+    <arrow_length>20</arrow_length>
+    <widget_type>Polyline</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="119" green="196" blue="221" />
+    </background_color>
+    <width>1</width>
+    <x>750</x>
+    <name>Polyline_7</name>
+    <y>395</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:vacum:R1CCG02:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_25</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b97</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>774</x>
+    <data_type>0</data_type>
+    <y>400</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:vacum:R1CCG06:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_26</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b8f</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>889</x>
+    <data_type>0</data_type>
+    <y>518</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b50</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>R1CCG02</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>67</width>
+    <x>753</x>
+    <name>Label_41</name>
+    <y>423</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b46</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>R1CCG06</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>67</width>
+    <x>825</x>
+    <name>Label_42</name>
+    <y>521</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:vacum:R2CCG05:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_27</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b33</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>883</x>
+    <data_type>0</data_type>
+    <y>657</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b32</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>R2CCG05</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>67</width>
+    <x>819</x>
+    <name>Label_43</name>
+    <y>660</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:vacum:R3CCG02:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_28</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b28</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>674</x>
+    <data_type>0</data_type>
+    <y>701</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b27</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>R3CCG02</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>67</width>
+    <x>653</x>
+    <name>Label_44</name>
+    <y>679</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:vacum:R3CCG06:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_29</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b1d</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>589</x>
+    <data_type>0</data_type>
+    <y>567</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b1c</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>R3CCG06</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>67</width>
+    <x>613</x>
+    <name>Label_45</name>
+    <y>570</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:vacum:R4CCG06:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_30</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b0e</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>589</x>
+    <data_type>0</data_type>
+    <y>538</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b0d</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>R4CCG06</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>67</width>
+    <x>613</x>
+    <name>Label_46</name>
+    <y>541</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:vacum:R4CCG05:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_31</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b03</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>589</x>
+    <data_type>0</data_type>
+    <y>497</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6b02</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>R4CCG05</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>67</width>
+    <x>613</x>
+    <name>Label_47</name>
+    <y>500</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:vacum:R4CCG03:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_32</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6af8</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>596</x>
+    <data_type>0</data_type>
+    <y>447</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6af7</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>R4CCG03</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>67</width>
+    <x>620</x>
+    <name>Label_48</name>
+    <y>450</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <bit>-1</bit>
+    <pv_value />
+    <height>25</height>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>rcs:interLock:vacum:R4CCG01:bi</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>LED</widget_type>
+    <name>LED_33</name>
+    <actions hook="false" hook_all="false" />
+    <show_boolean_label>false</show_boolean_label>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6aed</wuid>
+    <on_color>
+      <color red="0" green="255" blue="0" />
+    </on_color>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <on_label>ON</on_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </off_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <square_led>false</square_led>
+    <width>25</width>
+    <x>705</x>
+    <data_type>0</data_type>
+    <y>400</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <off_label>OFF</off_label>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6aec</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>R4CCG01</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>67</width>
+    <x>684</x>
+    <name>Label_49</name>
+    <y>423</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6ae1</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Vacum</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>712</x>
+    <name>Label_50</name>
+    <y>541</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="17" style="1">Header 1</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules>
+      <rule name="Rule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="Green" red="0" green="255" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="Red" red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">rcs:interLock:LLRF:mpsToCenter8:bi</pv>
+      </rule>
+    </rules>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6976</wuid>
+    <transparent>false</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <corner_height>16</corner_height>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>16</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="71" green="103" blue="204" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <corner_width>16</corner_width>
+    <line_style>0</line_style>
+    <widget_type>Rounded Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </background_color>
+    <width>30</width>
+    <x>457</x>
+    <name>nd4_8</name>
+    <y>100</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="true" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules>
+      <rule name="Rule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="Green" red="0" green="255" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="Red" red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">rcs:interLock:LLRF:mpsToCenter2:bi</pv>
+      </rule>
+    </rules>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-696c</wuid>
+    <transparent>false</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <corner_height>16</corner_height>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>30</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="71" green="103" blue="204" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <corner_width>16</corner_width>
+    <line_style>0</line_style>
+    <widget_type>Rounded Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </background_color>
+    <width>16</width>
+    <x>780</x>
+    <name>nd4_9</name>
+    <y>227</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="true" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules>
+      <rule name="Rule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="Green" red="0" green="255" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="Red" red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">rcs:interLock:LLRF:mpsToCenter3:bi</pv>
+      </rule>
+    </rules>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-695b</wuid>
+    <transparent>false</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <corner_height>16</corner_height>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>30</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="71" green="103" blue="204" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <corner_width>16</corner_width>
+    <line_style>0</line_style>
+    <widget_type>Rounded Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </background_color>
+    <width>16</width>
+    <x>281</x>
+    <name>nd4_10</name>
+    <y>460</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="true" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules>
+      <rule name="Rule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="Green" red="0" green="255" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="Red" red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">rcs:interLock:LLRF:mpsToCenter4:bi</pv>
+      </rule>
+    </rules>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6954</wuid>
+    <transparent>false</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <corner_height>16</corner_height>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>30</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="71" green="103" blue="204" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <corner_width>16</corner_width>
+    <line_style>0</line_style>
+    <widget_type>Rounded Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </background_color>
+    <width>16</width>
+    <x>281</x>
+    <name>nd4_11</name>
+    <y>363</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="true" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules>
+      <rule name="Rule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="Green" red="0" green="255" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="Red" red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">rcs:interLock:LLRF:mpsToCenter5:bi</pv>
+      </rule>
+    </rules>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-694d</wuid>
+    <transparent>false</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <corner_height>16</corner_height>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>30</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="71" green="103" blue="204" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <corner_width>16</corner_width>
+    <line_style>0</line_style>
+    <widget_type>Rounded Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </background_color>
+    <width>16</width>
+    <x>281</x>
+    <name>nd4_12</name>
+    <y>328</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="true" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules>
+      <rule name="Rule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="Green" red="0" green="255" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="Red" red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">rcs:interLock:LLRF:mpsToCenter6:bi</pv>
+      </rule>
+    </rules>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-6946</wuid>
+    <transparent>false</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <corner_height>16</corner_height>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>30</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="71" green="103" blue="204" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <corner_width>16</corner_width>
+    <line_style>0</line_style>
+    <widget_type>Rounded Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </background_color>
+    <width>16</width>
+    <x>281</x>
+    <name>nd4_13</name>
+    <y>293</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="true" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <line_width>0</line_width>
+    <horizontal_fill>true</horizontal_fill>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules>
+      <rule name="Rule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="Green" red="0" green="255" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="Red" red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">rcs:interLock:LLRF:mpsToCenter7:bi</pv>
+      </rule>
+    </rules>
+    <enabled>true</enabled>
+    <wuid>-760f04a5:15e35c13d40:-693f</wuid>
+    <transparent>false</transparent>
+    <pv_value />
+    <alpha>255</alpha>
+    <corner_height>16</corner_height>
+    <bg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </bg_gradient_color>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>30</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <gradient>false</gradient>
+    <border_color>
+      <color red="71" green="103" blue="204" />
+    </border_color>
+    <anti_alias>true</anti_alias>
+    <corner_width>16</corner_width>
+    <line_style>0</line_style>
+    <widget_type>Rounded Rectangle</widget_type>
+    <fg_gradient_color>
+      <color red="255" green="255" blue="255" />
+    </fg_gradient_color>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color name="Red" red="255" green="0" blue="0" />
+    </background_color>
+    <width>16</width>
+    <x>281</x>
+    <name>nd4_14</name>
+    <y>227</y>
+    <fill_level>0.0</fill_level>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="true" />
+    <font>
+      <opifont.name fontName="微软雅黑" height="9" style="0">Default</opifont.name>
+    </font>
+    <line_color>
+      <color red="128" green="0" blue="255" />
+    </line_color>
+  </widget>
+</display>
